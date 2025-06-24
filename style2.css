@@ -1,0 +1,46 @@
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.secao-conteudo {
+  padding: 4rem 2rem;
+  background-color: #141414;
+  border-top: 2px solid #bfa14b;
+  color: #ffffff;
+}
+
+.carrossel-container {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carrossel-conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.btn-warning {
+  background-color: #bfa14b;
+  border: none;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #000;
+}
